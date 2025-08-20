@@ -43,7 +43,7 @@ useFrame(() => {
               <h1 className="font-semibold font-serif text-2xl">
                 Hello, I'm May Showumi
               </h1>
-              <p className="text-gray-500">I'm a senior software developer</p>
+              <p className="text-gray-500 break-all">I'm a senior software developer</p>
               <p className="mt-3">I know:</p>
               <ul className="leading-9">
                 <li>🧑‍💻 How to code</li>
@@ -54,14 +54,14 @@ useFrame(() => {
               <p className="animate-bounce  mt-6">↓</p>
             </Section>
             <Section right opacity={opacitySecondSection}>
-              <h1 className="font-semibold font-serif text-2xl">
+              <h1 className="font-semibold font-serif text-2xl break-all">
                 Here are my core skillsets 🔥
               </h1>
-              <p className="text-gray-500">PS: I can can create UI/UX designs</p>
+              <p className="text-gray-500 break-all">PS: I can also create UI/UX designs</p>
               <p className="mt-3">
                 <b>Frontend 🚀</b>
               </p>
-              <ul className="leading-9">
+              <ul className="leading-9 break-all">
                 <li>ReactJS</li>
                 <li>React Native</li>
                 <li>Next.js</li> 
@@ -90,16 +90,16 @@ useFrame(() => {
               <p className="text-gray-500">
                 I deliver things to high standards.
               </p>
-              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center">
+              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center break-all">
                 📧 <a href="mailto:mayowashowumi@outlook.com">mayowashowumi@outlook.com</a>
               </p>
-              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center">
+              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center break-all">
                 📞 UK <a href="tel:(+44)7368340783">(+44)7368340783</a>
               </p>
-              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center">
+              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center break-all">
                 📞 UAE <a href="tel:(+971)558815904">(+971)558815904</a>
               </p>
-              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center">
+              <p className="mt-6 p-3 bg-slate-200 rounded-lg text-center break-all">
                 📄 <a href="../assets/May S (CV).docx" download>Download my CV</a>
               </p>
             </Section>
